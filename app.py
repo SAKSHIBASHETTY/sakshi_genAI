@@ -3,7 +3,7 @@ from typing import Generator
 from groq import Groq
 
 st.set_page_config(page_icon="💬", layout="wide",
-                   page_title="Sakshi Bashetty Streamlit APP")
+                   page_title="SAKSHI BASHETTY Streamlit APP")
 
 st.divider()  # 👈 Draws a horizontal rule
 
@@ -17,7 +17,7 @@ def icon(emoji: str):
 
 #icon("🏎️")
 
-st.subheader("sakshibashetty App", divider="rainbow", anchor=False)
+st.subheader("SAKSHI BASHETTY App", divider="rainbow", anchor=False)
 
 #GROQ_API_KEY = "your_groq_api_key_here"
 
